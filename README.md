@@ -1,5 +1,5 @@
 # goatfetch
-tiny sys fetch for linux in written ingo(at)  
+tiny sys fetch for linux in written in go(at)  
 
 ![example screenshot of the program in use](./goatfetch.png)
 
