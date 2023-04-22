@@ -60,5 +60,5 @@ func main() {
     fmt.Print("\033[0;95m███")
     fmt.Print("\033[0;96m███")
     fmt.Print("\033[0;97m███")
-    fmt.Print("\033[0m\n")
+    fmt.Print("\033[0m\n\n")
 }
