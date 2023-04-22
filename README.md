@@ -1,5 +1,5 @@
 # goatfetch
-generic sys fetch in go
+generic sys fetch in go(at)
 
 ```
 git clone https://github.com/ntscpal/goatfetch.git
