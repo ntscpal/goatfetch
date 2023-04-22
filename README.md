@@ -9,6 +9,6 @@ ensure you have `git` and `go` installed
 git clone https://github.com/ntscpal/goatfetch.git
 cd goatfetch
 go build goatfetch.go
-chmod +X ./goatfetch
+chmod +x goatfetch
 ./goatfetch
 ```
