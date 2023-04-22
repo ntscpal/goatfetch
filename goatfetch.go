@@ -6,7 +6,7 @@ import (
     "os"
     "os/exec"
     "strings"
-)
+ )
 
 func main() {
     logname := os.Getenv("LOGNAME")
