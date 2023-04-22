@@ -24,9 +24,9 @@ func main() {
             prettyName = strings.Trim(strings.TrimPrefix(line, "PRETTY_NAME="), `"`)
         }
     }
-    fmt.Println("(_(               ","OS:",prettyName)        
-    fmt.Print("/_/'_____/)        ","Kernel: ",string(kernelOutput))
-    fmt.Println("\"  |      |       ","Shell:",shell)
-    fmt.Print("   |\"\"\"\"\"\"|        ","Terminal: ",term, "\n")
+    fmt.Println("  \033[1m(_(             ","\033[32mOS\033[0m:",prettyName)        
+    fmt.Print("  \033[1m/_/'_____/)      ","\033[32mKernel\033[0m: ",string(kernelOutput))
+    fmt.Println("  \033[1m\"  |      |     ","\033[32mShell\033[0m:",shell)
+    fmt.Print("  \033[1m   |\"\"\"\"\"\"|      ","\033[32mTerminal\033[0m: ",term, "\n")
 }
 
